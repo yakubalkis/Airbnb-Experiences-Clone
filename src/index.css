@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Roboto:ital@1&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #E5E5E5;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.root{
+  position: absolute;
+  width: 550px;
+  height: 55rem;
+  background-color: #FFFFFF;
+  right: 50%;
+  transform: translateX(50%);
+  border-radius: 7.46px;
+}
+.nav-menu{
+  width: 550px;
+  height: 70px;
+  box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.1);
+  color: rgb(250, 100, 100);
+}
+.nav-items .nav-text{
+  font-size: 19px;
+  transform: translate(30px,-45px);
+  font-weight: 700;
+}
+.nav-items img{
+  width: 25px;
+  height: 25px;
+}
+.nav-items{
+ padding-top: 22px;
+  padding-left: 30px;
+  width: 82px;
+  height: 25px;
+}
+.head img{
+  width: 395.91;
+  height: 232px;
+  margin-left: 77px;
+  margin-top: 26px;
+}
+.head h1{
+  width: 347px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39.6px;
+  margin-left: 36px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+.head p{
+  width: 320px;
+  height: 56px;
+  margin-left: 36px;
+  line-height: 110%;
+  color: #222222;
+  font-size: 17px;
+}
+.cards-div{
+  margin-left: 37px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: column; 
+  position: relative;
+}
+.card--image {
+  width: 100%;
+  height: 235px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+.card--star {
+  height: 14px;
+}
+.card--price {
+  margin-top: auto;
+}
+.bold {
+  font-weight: bold;
+}
+.gray {
+  color: #918E9B;
+}
+.gray-part{
+  transform: translateX(2px);
+}
+.card--badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: 400;
+}
