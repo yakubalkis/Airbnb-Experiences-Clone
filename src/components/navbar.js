@@ -1,5 +1,5 @@
 import React from "react";
-import iconAir from '../img/icon-airbnb.png'
+import iconAir from '../images/icon-airbnb.png'
 
 
 export default function Navbar(){

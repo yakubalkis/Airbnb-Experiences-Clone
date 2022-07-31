@@ -1,5 +1,5 @@
  import React from "react";
- import headImg from '../img/hero.png'
+ import headImg from '../images/hero.png'
 
  export default function Head(){
     return (
